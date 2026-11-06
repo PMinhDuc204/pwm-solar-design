@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name LibreSolar_github)(type Github)(uri https://github.com/LibreSolar/KiCad-footprints)(options allow_pretty_writing_to_this_dir)(descr "LibreSolar common footprints library"))
+	(version 7)
+	(lib (name "LibreSolar_github") (type "Github") (uri "https://github.com/LibreSolar/kicad-footprints") (options "") (descr ""))
+	(lib (name "LibreSolar") (type "KiCad") (uri "${KIPRJMOD}/kicad-footprints") (options "") (descr ""))
+	(lib (name "PWM2420") (type "KiCad") (uri "${KIPRJMOD}/PWM2420.pretty") (options "") (descr ""))
 )
